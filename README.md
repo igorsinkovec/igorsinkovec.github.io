@@ -1,2 +1,1 @@
-# Šinkovec
-Novo mesto, Slovenia
+_Work in progress_
