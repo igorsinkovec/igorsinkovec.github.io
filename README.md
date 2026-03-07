@@ -1,2 +1,2 @@
-# igorsinkovec.github.io
-Personal website
+# Šinkovec
+Novo mesto, Slovenia
