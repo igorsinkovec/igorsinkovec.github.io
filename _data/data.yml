@@ -5,6 +5,7 @@
 sidebar:
     about: False
     education: True
+    position: right
 
     # Profile information
     name: Igor Šinkovec
@@ -14,32 +15,51 @@ sidebar:
     # Sidebar links
     email: igor@sinkovec.cc
     phone: +386 31 236 490
-    website: sinkovec.cc
-    github: igorsinkovec
+    timezone: false
+    citizenship: false
+    website: https://sinkovec.cc
     linkedin: real-igor-sinkovec
+    xing: false
+    github: igorsinkovec
+    telegram: false
+    gitlab: false
+    bitbucket: false
+    bluesky: false
+    twitter: false
+    stack-overflow: false
+    codewars: false
+    goodreads: false
+    mastodon: false
+    hackerrank: false
+    leetcode: false
+    pdf: false
 
     languages:
-      - idiom: Slovenian
-        level: Native
+      title: Languages
+      info:
+        - idiom: Slovenian
+          level: Native
 
-      - idiom: English
-        level: Fluent
+        - idiom: English
+          level: Fluent
 
-      - idiom: Croatian
-        level: Intermediate
+        - idiom: Croatian
+          level: Intermediate
 
-      - idiom: German / Italian / French
-        level: Beginner
+        - idiom: German / Italian / French
+          level: Beginner
 
     interests:
-      - item: MotoGymkhana
-        link: https://motogymkhana.si/
+      title: Interests
+      info:
+        - item: MotoGymkhana
+          link: https://motogymkhana.si/
 
-      - item: Volunteer Firefighting
-        link: https://www.facebook.com/pgdkamence
+        - item: Volunteer Firefighting
+          link: https://www.facebook.com/pgdkamence
 
-      - item: Volunteer First-Aid Medic & Emergency Response
-        link: https://novomesto.ozrk.si/
+        - item: Volunteer First-Aid Medic & Emergency Response
+          link: https://novomesto.ozrk.si/
 
 career-profile:
     title: Profile
@@ -56,107 +76,112 @@ career-profile:
       Core values: Truth · Loyalty · Mastery.
 
 education:
-    - degree: Volunteer Firefighter (operational)
-      university: Gasilska zveza Slovenije
-      time: 2023
+    title: Education
+    info:
+      - degree: Volunteer Firefighter, operational
+        university: Gasilska zveza Slovenije
+        time: 2023
 
-    - degree: First-Aid Medic, Emergency Response Team
-      university: OZRK Novo Mesto / Red Cross
-      time: 2023
+      - degree: First-Aid Medic, Emergency Response Team
+        university: OZRK Novo Mesto / Red Cross
+        time: 2023
 
-    - degree: Certificate IV in English Proficiency
-      university: English in Paradise, QLD, Australia
-      time: 2013
+      - degree: Certificate IV in English Proficiency
+        university: English in Paradise, QLD, Australia
+        time: 2013
 
-    - degree: Computer Science (3 semesters)
-      university: University of Ljubljana
-      time: 2000 – 2002
+      - degree: Computer Science (3 semesters)
+        university: University of Ljubljana
+        time: 2000 – 2002
 
-    - degree: Electronics Technician
-      university: High School for Electronics, Novo Mesto
-      time: 1990 – 1995
+      - degree: Electronics Technician
+        university: High School for Electronics, Novo Mesto
+        time: 1990 – 1995
 
 experiences:
-    - role: Senior Software Engineer
-      time: Nov 2023 – Mar 2025
-      company: LELOSI, Slovenia
-      details: |
-        LELOSI is a clothing manufacturer and an e-commerce company.
-          - Expanded the internal operations platform used across fulfillment, customer support and finance
-          - Built shipping integrations for 6 international couriers including label generation, parcel tracking and automatic error recovery
-          - Designed and implemented postcode validation and error correction across 18 European countries
-          - Optimised system performance and extended API integrations with adjacent systems
+    title: Experiences
+    info:
+      - role: Senior Software Engineer
+        time: Nov 2023 – Mar 2025
+        company: LELOSI, Slovenia
+        details: |
+          LELOSI is a clothing manufacturer and an e-commerce company.
+            - Expanded the internal operations platform used across fulfillment, customer support and finance
+            - Built shipping integrations for 6 international couriers including label generation, parcel tracking and automatic error recovery
+            - Designed and implemented postcode validation and error correction across 18 European countries
+            - Optimised system performance and extended API integrations with adjacent systems
 
-    - role: Senior Full-Stack Developer
-      time: Apr 2023 – Sep 2023
-      company: VAVEN, Slovenia
-      details: |
-        Vaven is a marketing platform connecting advertisers with web publishers.
-        Joined to prepare the product for VC funding phase.
-          - Integrated a payment processor end-to-end
-          - Implemented a full design overhaul
-          - Resolved a backlog of polish and stability issues across the platform
+      - role: Senior Full-Stack Developer
+        time: Apr 2023 – Sep 2023
+        company: VAVEN, Slovenia
+        details: |
+          VAVEN is a marketing platform connecting advertisers with web publishers.
+          Joined to prepare the product for VC funding phase.
+            - Integrated a payment processor end-to-end
+            - Implemented a full design overhaul
+            - Resolved a backlog of polish and stability issues across the platform
 
-    - role: Senior Back-End Engineer
-      time: Sep 2022 – Dec 2022
-      company: Carbon6, USA (remote)
-      details: |
-        Carbon6 acquired SellerTools (see below). Continued back-end engineering
-        on the same platform under new ownership.
+      - role: Senior Back-End Engineer
+        time: Sep 2022 – Dec 2022
+        company: Carbon6, USA (remote)
+        details: |
+          Carbon6 acquired SellerTools (see below). Continued back-end engineering
+          on the same platform under new ownership.
 
-    - role: PHP Back-End Developer
-      time: Jul 2020 – Sep 2021
-      company: SellerTools, Novo Mesto, Slovenia
-      details: |
-        SellerTools provides product ranking and optimisation services for Amazon sellers.
-        Later acquired by Carbon6.
-          - Developed and continuously optimised core platform services
-          - Provided technical customer support
+      - role: PHP Back-End Developer
+        time: Jul 2020 – Sep 2021
+        company: SellerTools, Novo Mesto, Slovenia
+        details: |
+          SellerTools provides product ranking and optimisation services for Amazon sellers.
+          Later acquired by Carbon6.
+            - Developed and continuously optimised core platform services
+            - Provided technical customer support
 
-    - role: PHP Back-End Developer
-      time: Jul 2018 – Apr 2020
-      company: D·Labs, Ljubljana, Slovenia
-      details: |
-        Rejoined D·Labs (now ~100 people) as part of an international team.
-          - Developed and maintained a complex multi-feature hub for the global fashion industry
-          - Built a distribution and sales platform for legal cannabis products for a New York startup
+      - role: PHP Back-End Developer
+        time: Jul 2018 – Apr 2020
+        company: D·Labs, Ljubljana, Slovenia
+        details: |
+          Rejoined D·Labs (now ~100 people) as part of an international team.
+            - Developed and maintained a complex multi-feature hub for the global fashion industry
+            - Built a distribution and sales platform for legal cannabis products for a New York startup
 
-    - role: Freelance Business Application Developer
-      time: Mar 2013 – Sep 2017
-      company: Self-employed, Novo Mesto, Slovenia
-      details: |
-        Long-term remote projects for foreign clients. Sole developer on two major engagements.
-          - Asset Management / Workflow application for an Australian sound studio, integrated with a proprietary CRM system
-          - Systems monitoring application for a German IT services provider operating on river cruise ships
+      - role: Freelance Business Application Developer
+        time: Mar 2013 – Sep 2017
+        company: Self-employed, Novo Mesto, Slovenia
+        details: |
+          Long-term remote projects for foreign clients. Sole developer on two major engagements.
+            - Asset Management / Workflow application for an Australian sound studio, integrated with a proprietary CRM system
+            - Systems monitoring application for a German IT services provider operating on river cruise ships
 
-    - role: Web Developer
-      time: Jul 2011 – Dec 2012
-      company: D·Labs, Ljubljana, Slovenia
-      details: |
-        D·Labs specialised in full-stack startup development.
-          - Luxury property rental website for a New York startup (co-located with client)
-          - Subscription plan comparison platform for Slovenia's national telecom regulator
-          - Global hub overhaul for wine producers and distributors (French client)
+      - role: Web Developer
+        time: Jul 2011 – Dec 2012
+        company: D·Labs, Ljubljana, Slovenia
+        details: |
+          D·Labs specialised in full-stack startup development.
+            - Luxury property rental website for a New York startup (co-located with client)
+            - Subscription plan comparison platform for Slovenia's national telecom regulator
+            - Global hub overhaul for wine producers and distributors (French client)
 
-    - role: Software Developer
-      time: Sep 2010 – Apr 2011
-      company: 3Hops, Novo Mesto, Slovenia
-      details: |
-        A micro-startup with unusually complex engineering projects.
-          - SCADA system for a 6MW industrial water boiler/steamer — touch-optimised desktop app in C#.NET
-          - Home Automation System built from scratch including hardware components
-          - Remote-controlled street lighting control software for an Italian research company
+      - role: Software Developer
+        time: Sep 2010 – Apr 2011
+        company: 3Hops, Novo Mesto, Slovenia
+        details: |
+          A micro-startup with unusually complex engineering projects.
+            - SCADA system for a 6MW industrial water boiler/steamer — touch-optimised desktop app in C#.NET
+            - Home Automation System built from scratch including hardware components
+            - Remote-controlled street lighting control software for an Italian research company
 
-    - role: (Apprentice) Software Developer
-      time: 2001, 2003 – 2004
-      company: ICE Information Solutions, Ljubljana, Slovenia
-      details: |
-        Small company developing call centre solutions and tailor-made CRM systems.
-        Joined part-time while at university; pace of learning led me to leave academia and go full-time.
-          - Developed modules for CRM systems (clients included Moscow Telecom)
+      - role: (Apprentice) Software Developer
+        time: 2001, 2003 – 2004
+        company: ICE Information Solutions, Ljubljana, Slovenia
+        details: |
+          Small company developing call centre solutions and tailor-made CRM systems.
+          Joined part-time while at university; pace of learning led me to leave academia and go full-time.
+            - Developed modules for CRM systems (clients included Moscow Telecom)
 
 projects:
     title: Other Experience
+    intro: false
     assignments:
       - title: Camera Operator
         tagline: "RTV Slovenija · 2022. Sporting events coverage for national television."

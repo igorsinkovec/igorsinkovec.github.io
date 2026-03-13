@@ -2,7 +2,7 @@
 title: Igor Šinkovec — CV
 description: Senior Full-Stack Engineer
 url: https://sinkovec.cc
-baseurl: /cv
+baseurl: ""
 
 # Theme
 remote_theme: sharu725/online-cv
