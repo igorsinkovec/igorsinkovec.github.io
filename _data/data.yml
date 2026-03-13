@@ -13,8 +13,8 @@ sidebar:
     avatar: profile.jpg
 
     # Sidebar links
-    email: igor@sinkovec.cc
-    phone: +386 31 236 490
+    email: false
+    phone: false
     timezone: false
     citizenship: false
     website: https://sinkovec.cc
