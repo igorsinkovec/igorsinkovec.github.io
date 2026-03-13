@@ -1,0 +1,71 @@
+name: Build Jekyll & Generate PDF
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  build-and-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Puppeteer
+        run: npm install puppeteer
+
+      - name: Install Puppeteer system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+
+      - name: Generate PDF from print page
+        run: |
+          node -e "
+          const puppeteer = require('puppeteer');
+          (async () => {
+            const browser = await puppeteer.launch({
+              executablePath: '/usr/bin/chromium-browser',
+              args: ['--no-sandbox', '--disable-setuid-sandbox']
+            });
+            const page = await browser.newPage();
+            await page.goto('file://' + process.cwd() + '/_site/cv/print/index.html', { waitUntil: 'networkidle0' });
+            await page.pdf({
+              path: '_site/cv/igor-sinkovec-cv.pdf',
+              format: 'A4',
+              printBackground: true,
+              margin: { top: '10mm', bottom: '10mm', left: '10mm', right: '10mm' }
+            });
+            await browser.close();
+            console.log('PDF generated.');
+          })();
+          "
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          destination_dir: cv
+          cname: sinkovec.cc

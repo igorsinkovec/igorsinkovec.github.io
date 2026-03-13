@@ -1,3 +1,26 @@
-theme: jekyll-theme-minimal
-title: Šinkovec
-description: Slovenia
+# Site Settings
+title: Igor Šinkovec — CV
+description: Senior Full-Stack Engineer
+url: https://sinkovec.cc
+baseurl: /cv
+
+# Theme
+remote_theme: sharu725/online-cv
+
+# Color skin: blue | turquoise | green | berry | orange | ceramic
+theme_skin: turquoise
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build
+encoding: utf-8
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+plugins:
+  - jekyll-remote-theme
