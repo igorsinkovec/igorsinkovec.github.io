@@ -50,9 +50,9 @@ jobs:
               args: ['--no-sandbox', '--disable-setuid-sandbox']
             });
             const page = await browser.newPage();
-            await page.goto('file://' + process.cwd() + '/_site/cv/print/index.html', { waitUntil: 'networkidle0' });
+            await page.goto('file://' + process.cwd() + '/_site/print/index.html', { waitUntil: 'networkidle0' });
             await page.pdf({
-              path: '_site/cv/igor-sinkovec-cv.pdf',
+              path: '_site/igor-sinkovec-cv.pdf',
               format: 'A4',
               printBackground: true,
               margin: { top: '10mm', bottom: '10mm', left: '10mm', right: '10mm' }
