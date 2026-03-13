@@ -16,6 +16,7 @@ sass:
   style: compressed
 
 # Build
+permalink: pretty
 encoding: utf-8
 compress_html:
   clippings: all
