@@ -107,7 +107,7 @@ experiences:
         details: |
           Reservation system for instructor-led classes, built for a private client.
             - Sole developer of the complete backend (OctoberCMS), admin panel, and Vue/Nuxt frontend app
-            - The system handles instructor scheduling and pricing, student booking, payments, and administration.
+            - The system handles instructor scheduling and pricing, student booking, payments and administration.
             - Collaborated with a designer/PM who handled UI/UX
 
       - role: Senior Software Engineer
