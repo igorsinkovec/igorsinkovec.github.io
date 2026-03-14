@@ -101,6 +101,14 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Senior Full-Stack Developer (Freelance)
+        time: Dec 2024 – Feb 2026
+        company: Freelance, Slovenia
+        details: |
+          Reservation system for instructor-led classes, built for a private client.
+            - Sole developer of the complete backend (OctoberCMS), admin panel, and Vue/Nuxt frontend app
+            - Collaborated with a designer/PM who handled UI/UX
+
       - role: Senior Software Engineer
         time: Nov 2023 – Mar 2025
         company: LELOSI, Slovenia
