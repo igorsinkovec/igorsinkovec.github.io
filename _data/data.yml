@@ -64,7 +64,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      I've spent 20 years building software that works under pressure — from complex PHP backends
+      I've spent 20 years building software that works under pressure — from complex PHP and Node backends
       to JavaScript frontends to data pipelines that have to be right the first time.
 
       I think in systems. I debug fast, work autonomously, and go deep where others go wide.
@@ -78,7 +78,7 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: Volunteer Firefighter, operational
+      - degree: Operative Firefighter
         university: Gasilska zveza Slovenije
         time: 2023
 
@@ -171,7 +171,7 @@ experiences:
             - Home Automation System built from scratch including hardware components
             - Remote-controlled street lighting control software for an Italian research company
 
-      - role: (Apprentice) Software Developer
+      - role: Junior Software Developer
         time: 2001, 2003 – 2004
         company: ICE Information Solutions, Ljubljana, Slovenia
         details: |
