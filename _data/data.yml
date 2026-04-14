@@ -64,11 +64,11 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      I've spent 20 years building software that works under pressure — from complex PHP and Node backends
+      I've spent 20 years building software that works under pressure: from complex PHP and Node backends
       to JavaScript frontends to data pipelines that have to be right the first time.
 
       I think in systems. I debug fast, work autonomously, and go deep where others go wide.
-      My background before software was 7 years driving heavy trucks internationally — it taught
+      My background before software was 7 years driving heavy trucks internationally: it taught
       me reliability, self-reliance, and how to solve problems alone at 3am with no backup.
 
       Outside of code: volunteer firefighter and first-aid medic. I show up when things go wrong.
@@ -176,7 +176,7 @@ experiences:
         company: 3Hops, Novo Mesto, Slovenia
         details: |
           A micro-startup with unusually complex engineering projects.
-            - SCADA system for a 6MW industrial water boiler/steamer — touch-optimised desktop app in C#.NET
+            - SCADA system for a 6MW industrial water boiler/steamer: touch-optimised desktop app in C#.NET
             - Home Automation System built from scratch including hardware components
             - Remote-controlled street lighting control software for an Italian research company
 
