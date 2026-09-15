@@ -137,6 +137,15 @@ experiences:
           Carbon6 acquired SellerTools (see below). Continued backend engineering
           on the same platform under new ownership.
 
+      - role: Senior Backend Engineer
+        time: Apr 2022 – Aug 2022
+        company: Grashka, Slovenia
+        details: |
+          Grashka is a plant-based food brand and e-commerce platform (grashka.co).
+            - Built the backend in PHP and set up the Docker development environment
+            - Mentored a junior frontend developer and improved frontend code in React
+            - Managed code integration and deployments to staging and production
+
       - role: PHP Backend Developer
         time: Jul 2020 – Sep 2021
         company: SellerTools, Novo Mesto, Slovenia
