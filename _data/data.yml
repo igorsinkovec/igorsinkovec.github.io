@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Igor Šinkovec
-    tagline: Senior Full-Stack Engineer
+    tagline: Senior Full-Stack Developer
     avatar: profile.jpg
 
     # Sidebar links
@@ -101,7 +101,7 @@ education:
 experiences:
     title: Professional Experience
     info:
-      - role: Senior Full-Stack Developer
+      - role: Senior Full-Stack Engineer
         time: Dec 2024 – Feb 2026
         company: Freelance, Slovenia
         details: |
@@ -110,7 +110,7 @@ experiences:
             - The system handles instructor scheduling and pricing, student booking, payments and administration.
             - Collaborated with a designer/PM who handled UI/UX
 
-      - role: Senior Software Engineer
+      - role: Senior Software Developer
         time: Nov 2023 – Mar 2025
         company: LELOSI, Slovenia
         details: |
@@ -130,11 +130,11 @@ experiences:
             - Implemented a full design overhaul
             - Resolved a backlog of polish and stability issues across the platform
 
-      - role: Senior Backend Engineer
+      - role: Senior Backend Developer
         time: Sep 2022 – Dec 2022
         company: Carbon6, USA (remote)
         details: |
-          Carbon6 acquired SellerTools (see below). Continued backend engineering
+          Carbon6 acquired SellerTools (see below). Continued backend development
           on the same platform under new ownership.
 
       - role: Senior Backend Engineer
